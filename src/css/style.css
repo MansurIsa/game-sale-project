@@ -1,0 +1,235 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --bodyBg: #171a21;
+    --dark: #212630;
+    --green: #009039;
+    --blue: #32a0db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bodyBg);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    font-family: 'Mulish', sans-serif;
+}
+
+.header_first_container {
+    background-color: var(--dark);
+}
+
+.header_first_container ul {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.header_first_container ul li a {
+    font-size: 1rem;
+    color: var(--white);
+    padding: 5px 0;
+    display: block;
+}
+
+.logo {
+    width: 180px;
+}
+
+.header_second_container {
+    background-color: var(--dark);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.header_second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header_second_inp_container {
+    background-color: var(--bodyBg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 400px;
+}
+
+.header_second_inp_container input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 92%;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.header_second_search {
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+.header_seconds_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_seconds_buttons button {
+    border-radius: 6px;
+    padding: 8px;
+    outline: none;
+    display: flex;
+    gap: 3px;
+    color: var(--white);
+}
+
+.header_seconds_buttons button:nth-child(1) {
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    transition: 0.5s ease-in-out;
+}
+
+.header_seconds_buttons button:nth-child(1):hover {
+    background: none;
+    color: var(--green);
+}
+
+.header_seconds_buttons button:nth-child(2) {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    transition: 0.5s ease-in-out;
+}
+
+.header_seconds_buttons button:nth-child(2):hover {
+    background: none;
+    color: var(--blue);
+
+}
+
+.cart_shop_icon {
+    color: var(--white);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header_third_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_third_container li a {
+    background-color: var(--dark);
+    color: var(--white);
+    display: flex;
+    width: 128px;
+    height: 30px;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+.header_third_container li:first-child a {
+    border-radius: 0 0 0 6px;
+}
+
+.header_third_container li:last-child a {
+    border-radius: 0 0 6px 0;
+}
+
+.header_third_container li a:hover {
+    background-color: var(--white);
+    color: var(--dark);
+
+}
+
+.header_fourth_first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header_fourth_first a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 71px;
+    height: 45px;
+    background-color: var(--dark);
+}
+
+.header_fourth_first img {
+    width: 44px;
+    height: 31px;
+    /* object-fit: cover; */
+}
+
+.header_fourth_first a:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+.header_fourth_first a:last-child {
+    border-radius: 0 6px 6px 0;
+}
+
+.header_fourth_first a:hover {
+    background-color: var(--blue);
+}
+
+.header_fifth_container {
+    display: flex;
+    gap: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--white);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 3rem; 
+}
+
+ 
