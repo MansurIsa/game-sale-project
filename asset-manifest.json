@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-sale-project/static/css/main.84c3cd01.css",
-    "main.js": "/game-sale-project/static/js/main.b14f6868.js",
+    "main.js": "/game-sale-project/static/js/main.e4ce5f52.js",
     "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
     "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
     "static/media/250x200.png": "/game-sale-project/static/media/250x200.69c63a0f3be25f1120fa.png",
@@ -16,10 +16,10 @@
     "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
     "index.html": "/game-sale-project/index.html",
     "main.84c3cd01.css.map": "/game-sale-project/static/css/main.84c3cd01.css.map",
-    "main.b14f6868.js.map": "/game-sale-project/static/js/main.b14f6868.js.map"
+    "main.e4ce5f52.js.map": "/game-sale-project/static/js/main.e4ce5f52.js.map"
   },
   "entrypoints": [
     "static/css/main.84c3cd01.css",
-    "static/js/main.b14f6868.js"
+    "static/js/main.e4ce5f52.js"
   ]
 }
