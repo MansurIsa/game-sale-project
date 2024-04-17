@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.d1734163.css",
-    "main.js": "/main/static/js/main.14d9b038.js",
-    "static/media/valorant-gece-pazari-nisan-28294.webp": "/main/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
-    "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/main/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
-    "static/media/250x200.png": "/main/static/media/250x200.69c63a0f3be25f1120fa.png",
-    "static/media/page-header-bg.svg": "/main/static/media/page-header-bg.dbfc3870c5596743fd79.svg",
-    "static/media/pubg.svg": "/main/static/media/pubg.bee333f9b22cf7abb6d7a93444be9a9f.svg",
-    "static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.webp": "/main/static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.eeb47138f5a77baba7b6.webp",
-    "static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp": "/main/static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.43a68a89007db2028e90.webp",
-    "static/media/valorant-hesap-58219.webp": "/main/static/media/valorant-hesap-58219.1e97b726a8e87ef1bfb2.webp",
-    "static/media/download.webp": "/main/static/media/download.6f4de075c2d3b298e9f3.webp",
-    "static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.webp": "/main/static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.41e4214f480d7b8b4b29.webp",
-    "static/media/rohan-25144.webp": "/main/static/media/rohan-25144.335a2e9091293bc0667a.webp",
-    "static/media/logo-light.svg": "/main/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
-    "index.html": "/main/index.html",
-    "main.d1734163.css.map": "/main/static/css/main.d1734163.css.map",
-    "main.14d9b038.js.map": "/main/static/js/main.14d9b038.js.map"
+    "main.css": "/game-sale-project/static/css/main.56173ee2.css",
+    "main.js": "/game-sale-project/static/js/main.f17dcc78.js",
+    "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
+    "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
+    "static/media/250x200.png": "/game-sale-project/static/media/250x200.69c63a0f3be25f1120fa.png",
+    "static/media/page-header-bg.svg": "/game-sale-project/static/media/page-header-bg.dbfc3870c5596743fd79.svg",
+    "static/media/pubg.svg": "/game-sale-project/static/media/pubg.bee333f9b22cf7abb6d7a93444be9a9f.svg",
+    "static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.webp": "/game-sale-project/static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.eeb47138f5a77baba7b6.webp",
+    "static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp": "/game-sale-project/static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.43a68a89007db2028e90.webp",
+    "static/media/valorant-hesap-58219.webp": "/game-sale-project/static/media/valorant-hesap-58219.1e97b726a8e87ef1bfb2.webp",
+    "static/media/download.webp": "/game-sale-project/static/media/download.6f4de075c2d3b298e9f3.webp",
+    "static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.webp": "/game-sale-project/static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.41e4214f480d7b8b4b29.webp",
+    "static/media/rohan-25144.webp": "/game-sale-project/static/media/rohan-25144.335a2e9091293bc0667a.webp",
+    "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
+    "index.html": "/game-sale-project/index.html",
+    "main.56173ee2.css.map": "/game-sale-project/static/css/main.56173ee2.css.map",
+    "main.f17dcc78.js.map": "/game-sale-project/static/js/main.f17dcc78.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1734163.css",
-    "static/js/main.14d9b038.js"
+    "static/css/main.56173ee2.css",
+    "static/js/main.f17dcc78.js"
   ]
 }
