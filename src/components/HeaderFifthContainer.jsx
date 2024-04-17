@@ -5,7 +5,7 @@ import HeaderSliderContainer from './HeaderSliderContainer'
 
 const HeaderFifthContainer = () => {
   return (
-    <div className='header_fifth_container container'>
+    <div className='header_fifth_container '>
         {/* <Link to={''}>
             <img src={HeaderFifthFirstImg} alt="" />
         </Link> */}
