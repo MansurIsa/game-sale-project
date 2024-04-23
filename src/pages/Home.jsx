@@ -15,6 +15,7 @@ import FooterFirstContainer from '../components/FooterFirstContainer'
 import FooterSecondContainer from '../components/FooterSecondContainer'
 import FooterThirdContainer from '../components/FooterThirdContainer'
 import FooterEndContainer from '../components/FooterEndContainer'
+import HeaderLiveSupportContainer from '../components/HeaderLiveSupportContainer'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <HeaderThirdContainer />
         <HeaderFourthContainer />
         <HeaderFifthContainer />
+        <HeaderLiveSupportContainer/>
       </header>
       <main>
         <section>
@@ -47,11 +49,11 @@ const Home = () => {
           <button className='view_all'>Tüm Haberler</button>
         </section>
 
-        <section className='container'>
+        {/* <section className='container'>
           <h2 className="section_header">Yayıncılar</h2>
           <PublishersSectionContainer />
           <button className='view_all'>Tüm Yayıncılar</button>
-        </section>
+        </section> */}
 
         <section className='container'>
           <h2 className="section_header">Türkiye'nin En Büyük Oyuncu Pazarı</h2>

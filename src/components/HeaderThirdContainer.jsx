@@ -6,7 +6,7 @@ const HeaderThirdContainer = () => {
         <nav className='header_nav'>
             <div className='container'>
                 <ul className='header_third_container'>
-                    <li><Link to={'/'}>OYUNLAR</Link></li>
+                    <li><Link to={'/oyunlar'}>OYUNLAR</Link></li>
                     <li><Link to={'/'}>OYUNCU PAZARI</Link></li>
                     <li><Link to={'/'}>KNIGHT ONLINE</Link></li>
                     <li><Link to={'/'}>PUBG UC</Link></li>

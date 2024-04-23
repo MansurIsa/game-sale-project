@@ -5,14 +5,18 @@ import HeaderSliderContainer from './HeaderSliderContainer'
 
 const HeaderFifthContainer = () => {
   return (
-    <div className='header_fifth_container '>
-        {/* <Link to={''}>
-            <img src={HeaderFifthFirstImg} alt="" />
-        </Link> */}
-        <HeaderSliderContainer/>
-        {/* <Link to={''}>
-            <img src={HeaderFifthFirstImg} alt="" />
-        </Link> */}
+    <div className='header_fifth_container container'>
+
+      <HeaderSliderContainer />
+      <div className="header_fifth_right_container">
+        <Link to={''}>
+          <img src={HeaderFifthFirstImg} alt="" />
+        </Link>
+        <Link to={''}>
+          <img src={HeaderFifthFirstImg} alt="" />
+        </Link>
+      </div>
+
     </div>
   )
 }
