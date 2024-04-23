@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/game-sale-project/static/css/main.84c3cd01.css",
-    "main.js": "/game-sale-project/static/js/main.e4ce5f52.js",
+    "main.css": "/game-sale-project/static/css/main.a0cf829c.css",
+    "main.js": "/game-sale-project/static/js/main.4dd795c2.js",
     "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
     "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
     "static/media/250x200.png": "/game-sale-project/static/media/250x200.69c63a0f3be25f1120fa.png",
     "static/media/page-header-bg.svg": "/game-sale-project/static/media/page-header-bg.dbfc3870c5596743fd79.svg",
     "static/media/pubg.svg": "/game-sale-project/static/media/pubg.bee333f9b22cf7abb6d7a93444be9a9f.svg",
     "static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.webp": "/game-sale-project/static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.eeb47138f5a77baba7b6.webp",
+    "static/media/26hZAJzIm8pBKR5PMibtNGCUy.webp": "/game-sale-project/static/media/26hZAJzIm8pBKR5PMibtNGCUy.fe6c2d87889e1c6a6559.webp",
     "static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp": "/game-sale-project/static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.43a68a89007db2028e90.webp",
     "static/media/valorant-hesap-58219.webp": "/game-sale-project/static/media/valorant-hesap-58219.1e97b726a8e87ef1bfb2.webp",
     "static/media/download.webp": "/game-sale-project/static/media/download.6f4de075c2d3b298e9f3.webp",
@@ -15,11 +16,11 @@
     "static/media/rohan-25144.webp": "/game-sale-project/static/media/rohan-25144.335a2e9091293bc0667a.webp",
     "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
     "index.html": "/game-sale-project/index.html",
-    "main.84c3cd01.css.map": "/game-sale-project/static/css/main.84c3cd01.css.map",
-    "main.e4ce5f52.js.map": "/game-sale-project/static/js/main.e4ce5f52.js.map"
+    "main.a0cf829c.css.map": "/game-sale-project/static/css/main.a0cf829c.css.map",
+    "main.4dd795c2.js.map": "/game-sale-project/static/js/main.4dd795c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.84c3cd01.css",
-    "static/js/main.e4ce5f52.js"
+    "static/css/main.a0cf829c.css",
+    "static/js/main.4dd795c2.js"
   ]
 }
