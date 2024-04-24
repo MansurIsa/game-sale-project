@@ -926,5 +926,59 @@ textarea {
 .other_bg_shadow {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.other_header_title{
+    color: var(--white);
+}
+
+.other_games_input{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.other_games_input input{
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 9px rgba(69, 69, 69, 0.23);
+    padding: 6px 12px;
+    width: 30%;
+    font-size: 1.6rem;
+}
+.other_games_cards_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+    gap: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.other_games_card{
+    min-width: 185px;
+    border-radius: 10px;
+    /* background-color: var(--dark); */
+    /* box-shadow: 0 0 9px rgba(69, 69, 69, 0.23); */
+    /* padding-bottom: 10px; */
+    position: relative;
+    overflow: hidden;
+}
+.other_games_card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.other_games_card h2{
+    position: absolute;
+    bottom: 20px;
+    font-size: 1.4rem;
+    color: var(--white);
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
 }

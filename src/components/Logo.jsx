@@ -4,7 +4,7 @@ import LogoImg from "../images/logo-light.svg"
 
 const Logo = () => {
   return (
-    <Link to={'/'}>
+    <Link to={'/game-sale-project'}>
         <img className='logo' src={LogoImg} alt="" />
     </Link>
   )

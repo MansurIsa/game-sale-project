@@ -4,6 +4,7 @@ import HeaderSecondContainer from './HeaderSecondContainer'
 import HeaderThirdContainer from './HeaderThirdContainer'
 import OtherHeaderPagesLink from './OtherHeaderPagesLink'
 import OtherHeaderMainContainer from './OtherHeaderMainContainer'
+import OtherHeaderEndContainer from './OtherHeaderEndContainer'
 
 const OtherHeader = ({otherHeaderPagesLink,otherPageBanner}) => {
     return (
@@ -12,7 +13,8 @@ const OtherHeader = ({otherHeaderPagesLink,otherPageBanner}) => {
             <HeaderSecondContainer />
             <HeaderThirdContainer />
             <OtherHeaderPagesLink otherHeaderPagesLink={otherHeaderPagesLink}/>
-            <OtherHeaderMainContainer otherPageBanner={otherPageBanner}/>
+            <OtherHeaderMainContainer otherPageBanner={otherPageBanner} otherHeaderPagesLink={otherHeaderPagesLink}/>
+            {/* <OtherHeaderEndContainer otherHeaderPagesLink={otherHeaderPagesLink}/> */}
         </header>
     )
 }
