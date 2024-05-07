@@ -7,7 +7,7 @@ const HeaderThirdContainer = () => {
             <div className='container'>
                 <ul className='header_third_container'>
                     <li><Link to={'/oyunlar'}>OYUNLAR</Link></li>
-                    <li><Link to={'/'}>OYUNCU PAZARI</Link></li>
+                    <li><Link to={'/oyuncu-pazari'}>OYUNCU PAZARI</Link></li>
                     <li><Link to={'/'}>KNIGHT ONLINE</Link></li>
                     <li><Link to={'/'}>PUBG UC</Link></li>
                     <li><Link to={'/'}>VALORANT VP</Link></li>

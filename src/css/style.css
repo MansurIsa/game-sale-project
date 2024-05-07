@@ -906,10 +906,10 @@ textarea {
     padding-bottom: 8px;
 }
 .other_header_pages_link p{
-    background-color: var(--bodyBg);
-    color: var(--white);
+    color: var(--blue);
     padding: 3px;
     border-radius: 5px;
+    font-weight: 500;
 }
 .other_header_pages_link a{
     color: var(--bodyBg);
