@@ -1,21 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HeaderSecondsButtons from './HeaderSecondsButtons'
 
 const HeaderThirdContainer = () => {
     return (
         <nav className='header_nav'>
-            <div className='container'>
+            <div className='container header_third'>
                 <ul className='header_third_container'>
+                    <li><Link to={'/hakkımızda'}>HAKKIMIZDA</Link></li>
                     <li><Link to={'/oyunlar'}>OYUNLAR</Link></li>
                     <li><Link to={'/oyuncu-pazari'}>OYUNCU PAZARI</Link></li>
-                    <li><Link to={'/'}>KNIGHT ONLINE</Link></li>
-                    <li><Link to={'/'}>PUBG UC</Link></li>
-                    <li><Link to={'/'}>VALORANT VP</Link></li>
-                    <li><Link to={'/'}>CS2 SKIN</Link></li>
+                    {/* <li><Link to={'/'}>KNIGHT ONLINE</Link></li> */}
+                    {/* <li><Link to={'/'}>PUBG UC</Link></li> */}
+                    {/* <li><Link to={'/'}>VALORANT VP</Link></li> */}
+                    {/* <li><Link to={'/'}>CS2 SKIN</Link></li> */}
                     <li><Link to={'/'}>RAZER AL-SAT</Link></li>
                     <li><Link to={'/'}>AÇIK ARTIRMA</Link></li>
                     <li><Link to={'/'}>+BAKİYE YÜKLE</Link></li>
+                    <li><Link to={'/'}>HABERLER</Link></li>
                 </ul>
+                <HeaderSecondsButtons/>
             </div>
 
         </nav>

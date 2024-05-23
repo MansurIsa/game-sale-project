@@ -1,10 +1,11 @@
 import React from 'react'
 import OtherHeader from '../components/OtherHeader'
-import OtherPlayerMarketButtons from '../components/OtherPlayerMarketButtons'
 import FooterFirstContainer from '../components/FooterFirstContainer'
 import FooterSecondContainer from '../components/FooterSecondContainer'
 import FooterThirdContainer from '../components/FooterThirdContainer'
 import FooterEndContainer from '../components/FooterEndContainer'
+import PlayerMarketFilterContainer from '../components/PlayerMarketFilterContainer'
+import PlayerMarketFilterCardsContainer from '../components/PlayerMarketFilterCardsContainer'
 
 const PlayerMarket = ({ otherPageBanner }) => {
     return (
@@ -12,7 +13,12 @@ const PlayerMarket = ({ otherPageBanner }) => {
             <OtherHeader otherHeaderPagesLink="Oyuncu Pazarı" otherPageBanner={otherPageBanner} />
             <main>
                 <section>
-                    <OtherPlayerMarketButtons />
+                    <h2 className="section_header">Oyuncu Pazarı Vitrini</h2>
+                    <div className="player_market_section_first_container container">
+                        <PlayerMarketFilterContainer/>
+                        <PlayerMarketFilterCardsContainer/>
+
+                    </div>
                 </section>
             </main>
             <footer>

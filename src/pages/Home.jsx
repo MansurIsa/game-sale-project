@@ -35,9 +35,9 @@ const Home = () => {
         <section>
           <MainSecondContainer />
         </section>
-        <section>
+        {/* <section>
           <MainFirstContainer />
-        </section>
+        </section> */}
         <section className='container'>
           <h2 className="section_header">Açık Artırma</h2>
           <AuctionSectionContainer />

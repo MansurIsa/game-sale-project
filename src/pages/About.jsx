@@ -1,21 +1,19 @@
 import React from 'react'
 import OtherHeader from '../components/OtherHeader'
-import OtherGamesInput from '../components/OtherGamesInput'
-import OtherGamesCardsContainer from '../components/OtherGamesCardsContainer'
 import FooterFirstContainer from '../components/FooterFirstContainer'
 import FooterSecondContainer from '../components/FooterSecondContainer'
 import FooterThirdContainer from '../components/FooterThirdContainer'
 import FooterEndContainer from '../components/FooterEndContainer'
 
-const Games = ({ otherPageBanner }) => {
+const About = ({otherPageBanner}) => {
     return (
         <div>
-            <OtherHeader otherHeaderPagesLink="Oyunlar" otherPageBanner={otherPageBanner} />
+            <OtherHeader otherHeaderPagesLink="Hakkımızda" otherPageBanner={otherPageBanner} />
             <main>
                 <section>
                     {/* <OtherGamesInput /> */}
-                    <h2 className="section_header">Tüm oyunlar</h2>
-                    <OtherGamesCardsContainer />
+                    <h2 className="section_header">Hakkımızda</h2>
+                    {/* <OtherGamesCardsContainer /> */}
                 </section>
             </main>
             <footer>
@@ -31,4 +29,4 @@ const Games = ({ otherPageBanner }) => {
     )
 }
 
-export default Games
+export default About

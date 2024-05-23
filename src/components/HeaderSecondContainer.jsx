@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from './Logo'
 import HeaderSecondInp from './HeaderSecondInp'
 import HeaderSecondsButtons from './HeaderSecondsButtons'
+import AddAnnounce from './AddAnnounce'
+import LanguageSelect from './LanguageSelect'
 
 const HeaderSecondContainer = () => {
   return (
@@ -9,7 +11,8 @@ const HeaderSecondContainer = () => {
       <div className="header_second container">
         <Logo />
         <HeaderSecondInp/>
-        <HeaderSecondsButtons/>
+        <AddAnnounce/>
+        {/* <LanguageSelect/> */}
       </div>
 
     </div>
