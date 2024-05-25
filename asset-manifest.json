@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/game-sale-project/static/css/main.ddbfa637.css",
-    "main.js": "/game-sale-project/static/js/main.0c2c74f6.js",
+    "main.css": "/game-sale-project/static/css/main.439e711c.css",
+    "main.js": "/game-sale-project/static/js/main.c2c29969.js",
     "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
     "static/media/black-desert-online-26536.webp": "/game-sale-project/static/media/black-desert-online-26536.34050e1cc05f5e57baf8.webp",
     "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
     "static/media/250x200.png": "/game-sale-project/static/media/250x200.69c63a0f3be25f1120fa.png",
     "static/media/page-header-bg.svg": "/game-sale-project/static/media/page-header-bg.dbfc3870c5596743fd79.svg",
+    "static/media/united-kingdom.png": "/game-sale-project/static/media/united-kingdom.789ff1da7dc0b7ff0220.png",
     "static/media/pubg.svg": "/game-sale-project/static/media/pubg.bee333f9b22cf7abb6d7a93444be9a9f.svg",
     "static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.webp": "/game-sale-project/static/media/banner_side_ko_yenisunucu_zerolu_v2_right-72163.eeb47138f5a77baba7b6.webp",
+    "static/media/avatar-3637425_640.webp": "/game-sale-project/static/media/avatar-3637425_640.76404b0932a7b5b6b849.webp",
     "static/media/26hZAJzIm8pBKR5PMibtNGCUy.webp": "/game-sale-project/static/media/26hZAJzIm8pBKR5PMibtNGCUy.fe6c2d87889e1c6a6559.webp",
     "static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp": "/game-sale-project/static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.43a68a89007db2028e90.webp",
     "static/media/valorant-hesap-58219.webp": "/game-sale-project/static/media/valorant-hesap-58219.1e97b726a8e87ef1bfb2.webp",
@@ -17,11 +19,11 @@
     "static/media/rohan-25144.webp": "/game-sale-project/static/media/rohan-25144.335a2e9091293bc0667a.webp",
     "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
     "index.html": "/game-sale-project/index.html",
-    "main.ddbfa637.css.map": "/game-sale-project/static/css/main.ddbfa637.css.map",
-    "main.0c2c74f6.js.map": "/game-sale-project/static/js/main.0c2c74f6.js.map"
+    "main.439e711c.css.map": "/game-sale-project/static/css/main.439e711c.css.map",
+    "main.c2c29969.js.map": "/game-sale-project/static/js/main.c2c29969.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddbfa637.css",
-    "static/js/main.0c2c74f6.js"
+    "static/css/main.439e711c.css",
+    "static/js/main.c2c29969.js"
   ]
 }
