@@ -57,7 +57,7 @@ const HeaderSecondsButtons = () => {
             <FaRocketchat className='header_seconds_first_element_chat'/>
             <IoNotificationsOutline className='header_seconds_first_element_notification'/>
           </div> :
-          <button onClick={() => dispatch(handleLoginRegister())}><FaUser /> Giriş/Kayıt</button>
+          <button className='sign_btn' onClick={() => dispatch(handleLoginRegister())}><FaUser /> <span>Giriş/Kayıt</span></button>
       }
 
       {
@@ -94,7 +94,7 @@ const HeaderSecondsButtons = () => {
       }
 
 
-      <button><BsCreditCardFill /> Satış Yap</button>
+      <button className='payment_btn'><BsCreditCardFill /><span>Satış Yap</span></button>
 
       <FaCartShopping className='cart_shop_icon' />
       {console.log(userObj)}

@@ -77,6 +77,8 @@ textarea {
 
 .header_first_container {
     background-color: var(--blue);
+    height: 5vh;
+    /* z-index: 99 !important; */
 }
 
 .header_first_container ul {
@@ -84,11 +86,13 @@ textarea {
     gap: 5px;
     /* justify-content: flex-end; */
 }
+.header_first_container ul li{
 
+}
 .header_first_container ul li a {
     font-size: 1rem;
     color: var(--white);
-    padding: 5px 0;
+    /* padding: 5px 0; */
     display: block;
 }
 
@@ -98,7 +102,7 @@ textarea {
     background: #fff;
    width: 20px;
    height: 20px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -148,6 +152,8 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
+
 }
 
 .logo {
@@ -156,16 +162,21 @@ textarea {
 
 .header_second_container {
     /* background-color: var(--blue); */
-    margin-top: 2px;
-    margin-bottom: 2px;
+    /* margin-top: 2px;
+    margin-bottom: 2px; */
     background-color: var(--black);
+    height: 10vh;
+    /* z-index: 99 !important; */
+    /* background-color: lime; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .header_second {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    height: 100%;
 }
 .announce_lang_container{
     display: flex;
@@ -336,6 +347,11 @@ textarea {
     border: 1px solid rgba(0, 124, 196, 0.1);
     transform: translateY(2px);
 }
+.bars_icon{
+    color: var(--white);
+    font-size: 2.2rem;
+    display: none;
+}
 .profile_img{
     width: 50px;
     height: 50px;
@@ -424,10 +440,12 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 .header_third_container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 50px;
 
 }
 
@@ -435,8 +453,8 @@ textarea {
     /* background-color: var(--dark); */
     color: var(--white);
     display: flex;
-    width: 128px;
-    height: 30px;
+    /* width: 128px;
+    height: 30px; */
     font-size: 1.3rem;
     align-items: center;
     justify-content: center;
@@ -462,15 +480,28 @@ textarea {
 
 .header_nav {
     background-color: var(--black);
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    height: 10vh;
+    /* z-index: 99 !important; */
+}
+.header_fourth_first_container{
+    background-color: var(--black);
+    height: 12vh;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    overflow-x: auto !important;
 }
 
 .header_fourth_first {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    
 }
 
 .header_fourth_first a {
@@ -479,15 +510,19 @@ textarea {
     justify-content: center;
     width: 71px;
     height: 45px;
-    background-color: var(--black);
+   
     border-radius: 6px;
     transition: 0.5s ease-in-out;
+    /* flex: 0 0 auto; 
+    scroll-snap-align: start; */
 }
 
 .header_fourth_first img {
-    width: 44px;
-    height: 31px;
+    /* width: 44px;
+    height: 31px; */
     /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
 }
 
 /* .header_fourth_first a:first-child {
@@ -515,19 +550,22 @@ textarea {
 
 .header_slider_cards_container{
     /* background-color: blue; */
-    width: 85%;
-    height: 100% !important;
+    /* width: 85%; */
+    max-width: 85%;
+    height: 100% ;
     /* height: 60vh; */
     border-radius: 15px;
 }
 .header_slider_cards_container img{
     height: 100%;
     border-radius: 15px;
+    width: 100%;
+    /* object-fit: cover; */
 }
 .header_fifth_right_container{
     display: flex;
     flex-direction: column;
-    width: 15%;
+    min-width: 200px;
     /* background-color: red; */
     justify-content: space-between;
 }
@@ -974,9 +1012,11 @@ main{
 
 .footer_second_inner_container {
     max-width: 970px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-    gap: 30px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); */
+    /* gap: 30px; */
+    justify-content: space-between;
 }
 
 .footer_second_card {
@@ -1505,3 +1545,20 @@ main{
 .login_container p{
     font-size: 1.2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

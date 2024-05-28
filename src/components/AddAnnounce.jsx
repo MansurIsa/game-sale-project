@@ -29,7 +29,7 @@ const AddAnnounce = () => {
   }, []);
     return (
         <div className="announce_lang_container">
-            <button className='add_announce_btn'><FaPlus /> İlan Ekle</button>
+            <button className='add_announce_btn'><FaPlus /><span>İlan Ekle</span> </button>
             <div className="language_select_container" ref={dropdownRef}>
                 <div className="selected_language" onClick={() => setIsOpen(!isOpen)}>
                     <img src={selectedLanguage} alt="Selected Language" />

@@ -3,7 +3,7 @@ import HeaderFourthFirst from './HeaderFourthFirst'
 
 const HeaderFourthContainer = () => {
   return (
-    <div className='container'>
+    <div className='header_fourth_first_container'>
         <HeaderFourthFirst/>
     </div>
   )

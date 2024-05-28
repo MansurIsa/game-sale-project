@@ -4,7 +4,7 @@ import HeaderFourthFirstImg from "../images/pubg.svg"
 
 const HeaderFourthFirst = () => {
   return (
-    <div className='header_fourth_first'>
+    <div className='header_fourth_first container'>
         <Link to={''}><img src={HeaderFourthFirstImg} alt=''/></Link>
         <Link to={''}><img src={HeaderFourthFirstImg} alt=''/></Link>
         <Link to={''}><img src={HeaderFourthFirstImg} alt=''/></Link>

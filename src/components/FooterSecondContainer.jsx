@@ -4,7 +4,7 @@ import FooterSecondLogoCard from './FooterSecondLogoCard'
 
 const FooterSecondContainer = () => {
     return (
-        <div className='footer_second_container'>
+        <div className='footer_second_container container'>
             <FooterSecondLogoCard />
             <div className="footer_second_inner_container">
                 <FooterSecondCard />

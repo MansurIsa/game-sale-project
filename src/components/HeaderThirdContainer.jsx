@@ -1,12 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import HeaderSecondsButtons from './HeaderSecondsButtons'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import HeaderSecondsButtons from './HeaderSecondsButtons';
+import { FaBars } from 'react-icons/fa6';
 
 const HeaderThirdContainer = () => {
+    const [isActive, setIsActive] = useState(false);
+
+    const barsHandle = () => {
+        setIsActive(!isActive);
+    };
+
     return (
         <nav className='header_nav'>
             <div className='container header_third'>
-                <ul className='header_third_container'>
+                <ul className={`header_third_container ${isActive ? 'active' : ''}`}>
                     <li><Link to={'/hakkımızda'}>HAKKIMIZDA</Link></li>
                     <li><Link to={'/oyunlar'}>OYUNLAR</Link></li>
                     <li><Link to={'/oyuncu-pazari'}>OYUNCU PAZARI</Link></li>
@@ -19,12 +26,11 @@ const HeaderThirdContainer = () => {
                     <li><Link to={'/'}>+BAKİYE YÜKLE</Link></li>
                     <li><Link to={'/'}>HABERLER</Link></li>
                 </ul>
-                <HeaderSecondsButtons/>
+                <FaBars onClick={barsHandle} className='bars_icon' />
+                <HeaderSecondsButtons />
             </div>
-
         </nav>
+    );
+};
 
-    )
-}
-
-export default HeaderThirdContainer
+export default HeaderThirdContainer;
