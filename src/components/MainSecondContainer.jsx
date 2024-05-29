@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import MainSecondCard from './MainSecondCard'
 import MainSecondCardImg from "../images/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp"
 import { useDispatch, useSelector } from 'react-redux'
-import { getProducts } from '../actions/MainAction'
+import { getHighlightProducts, getProducts } from '../actions/MainAction'
 
 
 const MainSecondContainer = () => {
@@ -75,15 +75,17 @@ const MainSecondContainer = () => {
     ]
 
     const dispatch=useDispatch()
-    const {products}=useSelector(state=>state.Data)
+    const {highlightProducts}=useSelector(state=>state.Data)
+
+    console.log(highlightProducts);
 
     useEffect(()=>{
-        dispatch(getProducts())
+        dispatch(getHighlightProducts())
     },[dispatch])
     return (
         <div className='main_second_container container'>
             {
-                products?.map((data, i) => {
+                highlightProducts?.map((data, i) => {
                     return (
                         <Link to={`/${data.title}/${data.id}`}>
                             <MainSecondCard key={i} data={data}/>

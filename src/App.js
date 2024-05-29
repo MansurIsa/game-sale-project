@@ -9,6 +9,7 @@ import MainSecondCardImg from "./images/prime-ultra-vip-pubg-mobil-random-hesap-
 import { useSelector } from 'react-redux';
 import About from './pages/About';
 import Login from './components/modals/Login';
+import Announcement from './pages/Announcement';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/hakkımızda' element={<About otherPageBanner={otherPageBanner} />} />
         <Route path='/oyuncu-pazari' element={<PlayerMarket otherPageBanner={otherPageBanner} />} />
         <Route path='/:productName/:id' element={<DetailProduct  otherPageBanner={otherPageBanner} />} />
+        <Route path='/myAnnouncements' element={<Announcement otherPageBanner={otherPageBanner} />} />
 
       </Routes>
 

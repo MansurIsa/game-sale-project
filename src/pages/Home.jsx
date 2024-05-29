@@ -16,6 +16,7 @@ import FooterSecondContainer from '../components/FooterSecondContainer'
 import FooterThirdContainer from '../components/FooterThirdContainer'
 import FooterEndContainer from '../components/FooterEndContainer'
 import HeaderLiveSupportContainer from '../components/HeaderLiveSupportContainer'
+import MainThirdContainer from '../components/MainThirdContainer'
 
 const Home = () => {
   return (
@@ -26,14 +27,19 @@ const Home = () => {
         <HeaderThirdContainer />
         <HeaderFourthContainer />
         <HeaderFifthContainer />
-        <HeaderLiveSupportContainer/>
+        <HeaderLiveSupportContainer />
       </header>
       <main>
         <section>
           <MainFirstContainer />
         </section>
         <section>
+          <h2 className="section_header">Vitirin ilanları</h2>
           <MainSecondContainer />
+        </section>
+        <section>
+          <h2 className="section_header">Tüm ilanlar</h2>
+          <MainThirdContainer />
         </section>
         {/* <section>
           <MainFirstContainer />
@@ -66,10 +72,10 @@ const Home = () => {
       <footer>
         <div className="footer_parent_container">
           <FooterFirstContainer />
-          <FooterSecondContainer/>
-          <FooterThirdContainer/>
+          <FooterSecondContainer />
+          <FooterThirdContainer />
         </div>
-        <FooterEndContainer/>
+        <FooterEndContainer />
 
       </footer>
     </div>

@@ -363,6 +363,7 @@ textarea {
 .profile_img img{
     width: 100%;
     border-radius: 50%;
+    
 }
 .profile_buttons{
     position: relative;
@@ -533,9 +534,9 @@ textarea {
     border-radius: 0 6px 6px 0;
 } */
 
-.header_fourth_first a:hover {
+/* .header_fourth_first a:hover {
     background-color: var(--blue);
-}
+} */
 
 .header_fifth_container {
     display: flex;
@@ -703,12 +704,12 @@ main{
 
 .main_second_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 12px;
 }
 
 .main_second_card {
-    min-width: 185px;
+    min-width: 240px;
     border-radius: 10px;
     background-color: var(--dark);
     box-shadow: 0 0 9px rgba(69, 69, 69, 0.23);
@@ -791,9 +792,14 @@ main{
     font-size: 1.2rem;
     color: var(--white);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
+    padding: 0 4px;
 }
-
+.main_second_card_down_footer_icons{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
 .main_second_card_down_footer {
     display: flex;
     justify-content: space-between;
@@ -1354,7 +1360,33 @@ main{
 .player_market_filter_card:hover .main_second_card_up_hover {
     top: 0;
 }
+.main_second_card_end{
+    border-top: 1px solid var(--bodyBg);
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    justify-content: center;
+    gap: 10px;
+}
+.main_second_card_end img{
+    width: 30px;
+    border-radius: 6px;
+}
+.main_second_card_end_seller{
+    display: flex;
+    flex-direction: column;
+}
+.main_second_card_end span{
+    color: var(--white);
+    font-size: 1rem;
 
+}
+.main_second_card_end p{
+    color: var(--white);
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
 .detail_page_section_first_container{
     background-color: var(--black);
     display: grid;
@@ -1367,6 +1399,7 @@ main{
 .detail_page_section_first_img{
     border-left: 1px solid var(--bodyBg);
     border-right: 1px solid var(--bodyBg);
+    
 }
 .detail_page_section_first_img img{
     width: 100%;
@@ -1426,6 +1459,9 @@ main{
 .detail_page_section_first_content_two img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
+
+
     border-radius: 50%;
 }
 .detail_page_section_first_content_two p{

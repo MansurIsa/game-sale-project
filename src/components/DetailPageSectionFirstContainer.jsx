@@ -19,11 +19,9 @@ const DetailPageSectionFirstContainer = ({ product }) => {
         <div className="detail_page_section_first_container container">
 
             <div className="detail_page_section_first_content detail_page_section_first_card">
-                <p>#{product?.id}</p>
+                <p>#{product?.product_id}</p>
                 <h3>{product?.title}</h3>
-                <p>
-                    EN ÇOK TERCİH EDİLEN, GÜVENİLİR VE TAM OTOMATİK MAĞAZAMIZA HOŞGELDİNİZ!Kanalınızın linkini iletmeniz yeterlidir.Kanalınız herkese açık olmalıdır.İstediğiniz özel bir miktar var ise iletişime geçebilirsiniz.Diğer
-                </p>
+                <p>{product?.description}</p>
                 <div className="detail_page_section_first_content_buttons">
                     <button><FaQuestion /> Soru Sor</button>
                     <button><MdFavoriteBorder /> Favori</button>
@@ -38,9 +36,9 @@ const DetailPageSectionFirstContainer = ({ product }) => {
                 <h4>Satıcı bilgileri</h4>
                 <div className="detail_page_section_first_content_two_header">
                     <div className="detail_page_section_first_content_two_header_inner">
-                        <img src={product?.seller?.avatar ? product?.seller?.avatar : Avatar} alt="" />
+                        <img src={product?.seller?.cover ? product?.seller?.cover : Avatar} alt="" />
                         <div className="detail_page_section_first_content_two_header_inner_content">
-                            <h5>SocialStore</h5>
+                            <h5>{product?.seller?.name}</h5>
                             <div>
                                 <FaCheckCircle className='main_second_card_down_footer_check_icon' />
                                 <MdOutlineWorkspacePremium className='main_second_card_down_footer_check_icon' />
@@ -57,8 +55,8 @@ const DetailPageSectionFirstContainer = ({ product }) => {
                     </div>
                 </div>
                 <div className="detail_page_section_first_content_two_footer">
-                    <div>{product.price} TL İlan Ücreti</div>
-                    <div>{product.stock} Stok Sayısı</div>
+                    <div>{product?.price} TL İlan Ücreti</div>
+                    <div>{product?.stock} Stok Sayısı</div>
                 </div>
                 <button className='add_to_basket'><IoCart /> Satın Al</button>
             </div>

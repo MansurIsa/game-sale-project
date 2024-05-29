@@ -17,6 +17,8 @@ const DetailProduct = ({ otherPageBanner }) => {
     // const {products}=useSelector(state=>state.Data)
     // const product = products.find((product) => product.title === title);
 
+    console.log(productEl);
+
     useEffect(() => {
         dispatch(getProductEl(id))
     }, [dispatch])

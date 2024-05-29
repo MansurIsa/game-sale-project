@@ -8,7 +8,7 @@ import { FaRocketchat } from "react-icons/fa";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { getUserObj } from '../actions/MainAction';
 import Avatar from "../images/avatar-3637425_640.webp"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
@@ -20,6 +20,7 @@ const HeaderSecondsButtons = () => {
   const profileDetails=useRef()
 
   const dispatch = useDispatch()
+  const navigate=useNavigate()
 
   let getAccess = localStorage.getItem("access_token_game")
 
@@ -43,6 +44,10 @@ const HeaderSecondsButtons = () => {
     localStorage.removeItem('access_token_game')
     localStorage.removeItem('loggedInEmail')
     window.location.reload()
+  }
+
+  const myAnnouncementsBtn=()=>{
+    navigate("/myAnnouncements")
   }
 
   return (
@@ -76,10 +81,10 @@ const HeaderSecondsButtons = () => {
               <li>Para çek</li>
               <li>Profilim</li>
               <li>Siparişlerim</li>
-              <li>İlanlarım</li>
+              <li onClick={myAnnouncementsBtn}>İlanlarım</li>
               <li>Favori ilanlarım</li>
               <li>Destek sistemi</li>
-              <li>Discord</li>
+              <li></li>
               <li onClick={exitBtn}>Çıkış</li>
               
               
