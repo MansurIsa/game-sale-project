@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/game-sale-project/static/css/main.7de51e41.css",
-    "main.js": "/game-sale-project/static/js/main.f13f9310.js",
+    "main.css": "/game-sale-project/static/css/main.062c2ae2.css",
+    "main.js": "/game-sale-project/static/js/main.c5e3cbda.js",
     "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
     "static/media/black-desert-online-26536.webp": "/game-sale-project/static/media/black-desert-online-26536.34050e1cc05f5e57baf8.webp",
     "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
@@ -14,16 +14,17 @@
     "static/media/26hZAJzIm8pBKR5PMibtNGCUy.webp": "/game-sale-project/static/media/26hZAJzIm8pBKR5PMibtNGCUy.fe6c2d87889e1c6a6559.webp",
     "static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp": "/game-sale-project/static/media/prime-ultra-vip-pubg-mobil-random-hesap-medium.43a68a89007db2028e90.webp",
     "static/media/valorant-hesap-58219.webp": "/game-sale-project/static/media/valorant-hesap-58219.1e97b726a8e87ef1bfb2.webp",
+    "static/media/766ee6c1.webp": "/game-sale-project/static/media/8daf9bd5bb58cc1ea319ddb61929af94766ee6c1.c08a9e067ef97d017622.webp",
     "static/media/download.webp": "/game-sale-project/static/media/download.6f4de075c2d3b298e9f3.webp",
     "static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.webp": "/game-sale-project/static/media/prince-of-persia-the-lost-crown-oyun-incelemesi-1770-medium.41e4214f480d7b8b4b29.webp",
     "static/media/rohan-25144.webp": "/game-sale-project/static/media/rohan-25144.335a2e9091293bc0667a.webp",
     "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
     "index.html": "/game-sale-project/index.html",
-    "main.7de51e41.css.map": "/game-sale-project/static/css/main.7de51e41.css.map",
-    "main.f13f9310.js.map": "/game-sale-project/static/js/main.f13f9310.js.map"
+    "main.062c2ae2.css.map": "/game-sale-project/static/css/main.062c2ae2.css.map",
+    "main.c5e3cbda.js.map": "/game-sale-project/static/js/main.c5e3cbda.js.map"
   },
   "entrypoints": [
-    "static/css/main.7de51e41.css",
-    "static/js/main.f13f9310.js"
+    "static/css/main.062c2ae2.css",
+    "static/js/main.c5e3cbda.js"
   ]
 }
