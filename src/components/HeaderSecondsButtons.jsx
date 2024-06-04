@@ -47,7 +47,11 @@ const HeaderSecondsButtons = () => {
   }
 
   const myAnnouncementsBtn=()=>{
-    navigate("/myAnnouncements")
+    navigate("/my-announcements")
+  }
+
+  const myFavoriesBtn=()=>{
+    navigate("/my-favories")
   }
 
   return (
@@ -82,7 +86,7 @@ const HeaderSecondsButtons = () => {
               <li>Profilim</li>
               <li>Siparişlerim</li>
               <li onClick={myAnnouncementsBtn}>İlanlarım</li>
-              <li>Favori ilanlarım</li>
+              <li onClick={myFavoriesBtn}>Favori ilanlarım</li>
               <li>Destek sistemi</li>
               <li></li>
               <li onClick={exitBtn}>Çıkış</li>

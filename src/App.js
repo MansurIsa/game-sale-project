@@ -1,38 +1,40 @@
-import React from 'react'
+import React from 'react';
 import { Routes, Route } from "react-router-dom";
+import { useSelector } from 'react-redux';
 import Home from './pages/Home';
 import Games from './pages/Games';
-import otherPageBanner from "./images/26hZAJzIm8pBKR5PMibtNGCUy.webp"
+import otherPageBanner from "./images/26hZAJzIm8pBKR5PMibtNGCUy.webp";
 import PlayerMarket from './pages/PlayerMarket';
 import DetailProduct from './pages/DetailProduct';
-import MainSecondCardImg from "./images/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp"
-import { useSelector } from 'react-redux';
 import About from './pages/About';
 import Login from './components/modals/Login';
 import Announcement from './pages/Announcement';
-
+import Shops from './pages/Shops';
+import AllShops from './pages/AllShops';
+import Favories from './pages/Favories';
+import LoaderContainer from './components/LoaderContainer';
 
 const App = () => {
+  const { loginRegisterModal, loader } = useSelector(state => state.Data);
 
-  const {loginRegisterModal}=useSelector(state=>state.Data)
-
-  
   return (
     <div>
-
       <Routes>
         <Route path='/game-sale-project' element={<Home />} />
-        <Route path='/oyunlar' element={<Games otherPageBanner={otherPageBanner} />} />
-        <Route path='/hakkımızda' element={<About otherPageBanner={otherPageBanner} />} />
-        <Route path='/oyuncu-pazari' element={<PlayerMarket otherPageBanner={otherPageBanner} />} />
-        <Route path='/:productName/:id' element={<DetailProduct  otherPageBanner={otherPageBanner} />} />
-        <Route path='/myAnnouncements' element={<Announcement otherPageBanner={otherPageBanner} />} />
-
+        <Route path='/games' element={<Games otherPageBanner={otherPageBanner} />} />
+        <Route path='/about' element={<About otherPageBanner={otherPageBanner} />} />
+        <Route path='/game-shop' element={<PlayerMarket otherPageBanner={otherPageBanner} />} />
+        <Route path='/:productName/:id' element={<DetailProduct otherPageBanner={otherPageBanner} />} />
+        <Route path='/my-announcements' element={<Announcement otherPageBanner={otherPageBanner} />} />
+        <Route path='/my-favories' element={<Favories otherPageBanner={otherPageBanner} />} />
+        <Route path='/shops' element={<Shops otherPageBanner={otherPageBanner} />} />
+        <Route path='/all-shops' element={<AllShops otherPageBanner={otherPageBanner} />} />
       </Routes>
 
-      {loginRegisterModal && <Login/>}
+      {loginRegisterModal && <Login />}
+      {loader && <LoaderContainer />}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
