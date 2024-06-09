@@ -1,3 +1,11 @@
+@media screen and (max-width: 1380px){
+    .player_market_filter_cards_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+
 @media screen and (max-width: 1340px) {
     .container {
         padding-left: 20px;
@@ -5,6 +13,7 @@
     }
 
 }
+
 
 @media screen and (max-width: 1240px) {
 
@@ -20,7 +29,11 @@
     }
 
 }
-
+@media screen and (max-width: 1080px){
+    .player_market_filter_cards_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media screen and (max-width: 992px) {
     .header_second_inp_container {
         width: 400px;
@@ -146,7 +159,17 @@
         min-width: 170px;
     }
 }
-
+@media screen and (max-width: 810px){
+    .player_market_section_first_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .player_market_filter_container{
+        min-width: 400px;
+        
+    }
+    
+}
 @media screen and (max-width: 768px) {
     .header_second_inp_container {
         width: 250px;
@@ -187,6 +210,20 @@
     .header_fourth_first_container{
         height: 8vh;
     }
+
+    .modal_card {
+      
+       
+        /* min-width: 300px;
+        max-width: 300px; */
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    /* .modal_container{
+        min-width: 200px;
+        max-width: 300px;
+    } */
 
 
 
@@ -265,6 +302,12 @@
     .footer_third_container {
         flex-direction: column;
         align-items: center;
+    }
+    .player_market_filter_cards_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player_market_filter_container{
+        min-width: 300px;
     }
 }
 
