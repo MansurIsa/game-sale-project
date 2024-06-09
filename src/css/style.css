@@ -2035,3 +2035,46 @@ main {
     border-radius: 6px;
     /* padding: 3px; */
 }
+
+/* .header_search_inp_products{
+    position: absolute;
+    top: 15vh;
+    max-width: 500px;
+    z-index: 999;
+    display: none;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    background-color: var(--white);
+    padding: 5px;
+    border-radius: 6px;
+} */
+
+.header_search_inp_product_card{
+    max-width: 200px ;
+    /* height: 250px ; */
+}
+.header_search_inp_product_card img{}
+
+.header_search_inp_products {
+    display: grid;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 500px;
+   left: 50%;
+   transform: translateX(-50%);
+
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    background-color: var(--white);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.no-results {
+    padding: 10px;
+    text-align: center;
+    color: #999;
+}

@@ -56,14 +56,16 @@ const ShopCreateModal = () => {
 
         }).then(resp => {
             console.log(resp);
-            if (resp.data === 201) {
+            if (resp.status === 201) {
                 Swal.fire({
                     title: "Created",
                     text: "Shop created",
                     icon: "success",
                     confirmButtonText: "OK",
                 })
+               
             }
+            
 
         }).catch(err => {
             Swal.fire({

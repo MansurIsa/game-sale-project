@@ -24,7 +24,7 @@ export const MainSlice = createSlice({
             state.productEl = action.payload;
         },
         getSearchİnpValFunc: (state, action) => {
-            state.products = action.payload;
+            state.productsSearchList = action.payload;
         },
         getMyAnnouncementsFunc: (state, action) => {
             state.myAnnouncements = action.payload;

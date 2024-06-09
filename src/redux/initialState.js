@@ -21,5 +21,7 @@ export const initialState = {
     productListFilter: [],
     categoryList: [],
     gameCategoryFilterList: [],
-    filterProducts: []
+    filterProducts: [],
+
+    productsSearchList: []
 }

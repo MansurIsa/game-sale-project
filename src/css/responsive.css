@@ -225,6 +225,11 @@
         max-width: 300px;
     } */
 
+    .header_search_inp_products{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
 
 
 }

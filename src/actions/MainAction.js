@@ -64,7 +64,11 @@ export const getSearchİnpVal = (name) => async dispatch => {
 
 export const getMyAnnouncements = () => async dispatch => {
     dispatch(isLoading());
-    return await axios.get(`${baseUrl}product/list-my-products`)
+    return await axios.get(`${baseUrl}product/list-my-products`,{
+        headers: {
+            Authorization: `Bearer ${localStorage.getItem('access_token_game')}`
+        },
+    })
         .then(resp => {
             dispatch(getMyAnnouncementsFunc(resp.data));
             dispatch(stopLoading());

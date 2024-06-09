@@ -19,6 +19,7 @@ const Announcement = ({otherPageBanner}) => {
     const {myAnnouncements}=useSelector(state=>state.Data)
 
 
+    console.log(myAnnouncements);
 
     return (
         <div>

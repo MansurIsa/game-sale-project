@@ -7,6 +7,7 @@ import { getCategoryList } from '../../actions/MainAction'
 import Swal from 'sweetalert2'
 import axios from 'axios'
 import { baseUrl } from '../../MAIN_API'
+import { useNavigate } from 'react-router-dom'
 
 const AnnounceCreateModal = () => {
 
@@ -22,6 +23,8 @@ const AnnounceCreateModal = () => {
 
 
     const dispatch = useDispatch()
+    const navigate=useNavigate()
+
     const { categoryList } = useSelector(state => state.Data)
 
 
@@ -79,9 +82,7 @@ const AnnounceCreateModal = () => {
             photo: img,
             price: +announcePriceVal,
             stock: +announceStockVal,
-            game_category: {
-                title: announceCategoryVal
-            },
+            game_category: announceCategoryVal,
             properties: [],
             is_auction: isAuctionVal,
             auction_duration: +announceDurationVal
@@ -100,12 +101,14 @@ const AnnounceCreateModal = () => {
 
         }).then(resp => {
             console.log(resp);
-            if (resp.data === 201) {
+            if (resp.status === 201) {
                 Swal.fire({
                     title: "Created",
                     text: "İlan yaradildi",
                     icon: "success",
                     confirmButtonText: "OK",
+                }).then(function(){
+                    navigate("/game-sale-project")
                 })
             }
 
@@ -144,7 +147,7 @@ const AnnounceCreateModal = () => {
                     <option value="">Katoqori secin</option>
                     {
                         categoryList?.map((data, i) => {
-                            return <option value={data?.title}>{data?.title}</option>
+                            return <option value={data?.id}>{data?.title}</option>
                         })
                     }
 
