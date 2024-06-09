@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/game-sale-project/static/css/main.062c2ae2.css",
-    "main.js": "/game-sale-project/static/js/main.c5e3cbda.js",
+    "main.css": "/game-sale-project/static/css/main.17cea1f6.css",
+    "main.js": "/game-sale-project/static/js/main.95baf694.js",
     "static/media/valorant-gece-pazari-nisan-28294.webp": "/game-sale-project/static/media/valorant-gece-pazari-nisan-28294.a4b8b0c152b625525a5e.webp",
     "static/media/black-desert-online-26536.webp": "/game-sale-project/static/media/black-desert-online-26536.34050e1cc05f5e57baf8.webp",
     "static/media/duyuru-nakit-cekim-bayram-14298.webp": "/game-sale-project/static/media/duyuru-nakit-cekim-bayram-14298.a61dff8f2d0bcd43bc9d.webp",
@@ -20,11 +20,11 @@
     "static/media/rohan-25144.webp": "/game-sale-project/static/media/rohan-25144.335a2e9091293bc0667a.webp",
     "static/media/logo-light.svg": "/game-sale-project/static/media/logo-light.e92e6fec5cbe89fe49173e5a176f919d.svg",
     "index.html": "/game-sale-project/index.html",
-    "main.062c2ae2.css.map": "/game-sale-project/static/css/main.062c2ae2.css.map",
-    "main.c5e3cbda.js.map": "/game-sale-project/static/js/main.c5e3cbda.js.map"
+    "main.17cea1f6.css.map": "/game-sale-project/static/css/main.17cea1f6.css.map",
+    "main.95baf694.js.map": "/game-sale-project/static/js/main.95baf694.js.map"
   },
   "entrypoints": [
-    "static/css/main.062c2ae2.css",
-    "static/js/main.c5e3cbda.js"
+    "static/css/main.17cea1f6.css",
+    "static/js/main.95baf694.js"
   ]
 }
