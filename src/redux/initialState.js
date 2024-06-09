@@ -8,5 +8,18 @@ export const initialState = {
     shopCreateModal: false,
     myFavories: [],
     refreshed: false,
-    loader: false
+    loader: false,
+    shopList: [],
+
+    auctionList: [],
+    auctionEl: {},
+    newsList: [],
+    newsEl: {},
+
+    announceCreateModal: false,
+
+    productListFilter: [],
+    categoryList: [],
+    gameCategoryFilterList: [],
+    filterProducts: []
 }

@@ -993,11 +993,15 @@ main {
 .news_section_card {
     min-width: 277px;
 }
-
+.news_section_card .auction_section_card_down{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .news_section_card h3 {
     font-size: 1.3rem;
     color: var(--white);
     margin-bottom: 7px;
+    font-weight: 500;
 }
 
 .news_section_card h4 {
@@ -1307,7 +1311,8 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    /* height: 200px; */
+    height: 50px;
     overflow-y: auto;
     margin-bottom: 10px;
 }
@@ -1370,13 +1375,36 @@ main {
     background: transparent;
 }
 
+.player_market_filter_container select{
+    outline: none;
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.player_market_filter_container select option{
+    outline: none;
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 3px;
+}
 
+.player_market_filter_inp_checkbox_container label{
+    color: var(--white);
+}
 
-
-
-
-
-
+.player_market_filter_inp_checkbox_category_filter_container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.player_market_filter_inp_checkbox_category_filter_inner_container{
+    overflow-y: auto;
+    height: 80px;
+}
 .news_slider_card_container {
     /* background-color: red; */
     /* min-height: 350px; */
@@ -1940,3 +1968,69 @@ main {
 	}
 }
 
+
+
+.detail_news_page_container{
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+
+.detail_news_page_container img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.detail_news_page_container h3{
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.detail_news_page_container p{
+    text-align: center;
+   
+}
+
+.other_news_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 20px;
+}
+
+.other_news_card{
+    min-width: 277px;
+}
+
+.is_auction_inp{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+
+
+
+.modal_card select{
+    outline: none;
+    border: none;
+    background-color: var(--white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.modal_card select option{
+    outline: none;
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    /* padding: 3px; */
+}

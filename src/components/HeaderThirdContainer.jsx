@@ -22,9 +22,9 @@ const HeaderThirdContainer = () => {
                     {/* <li><Link to={'/'}>VALORANT VP</Link></li> */}
                     {/* <li><Link to={'/'}>CS2 SKIN</Link></li> */}
                     <li><Link to={'/shops'}>Mağazalar</Link></li>
-                    <li><Link to={'/'}>AÇIK ARTIRMA</Link></li>
+                    <li><Link to={'/auctions'}>AÇIK ARTIRMA</Link></li>
                     <li><Link to={'/'}>+BAKİYE YÜKLE</Link></li>
-                    <li><Link to={'/'}>HABERLER</Link></li>
+                    <li><Link to={'/news'}>HABERLER</Link></li>
                 </ul>
                 <FaBars onClick={barsHandle} className='bars_icon' />
                 <HeaderSecondsButtons />

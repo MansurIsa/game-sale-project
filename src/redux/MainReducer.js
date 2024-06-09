@@ -34,6 +34,7 @@ export const MainSlice = createSlice({
         },
         modalOverlayFunc: (state, action) => {
             state.shopCreateModal = false;
+            state.announceCreateModal=false
         },
         getMyFavoriesFunc: (state, action) => {
             state.myFavories = action.payload;
@@ -46,7 +47,44 @@ export const MainSlice = createSlice({
         },
         stopLoading: (state) => {
             state.loader = false;
-        }
+        },
+        getShopListFunc: (state, action) => {
+            state.shopList = action.payload;
+        },
+
+
+
+        getAuctionListFunc: (state, action) => {
+            state.auctionList = action.payload;
+        },
+        getAuctionElFunc:  (state, action) => {
+            state.auctionEl=action.payload
+        },
+        getNewsListFunc: (state, action) => {
+            state.newsList=action.payload
+        },
+        getNewsElFunc:  (state, action) => {
+            state.newsEl=action.payload
+        },
+
+
+
+        announceCreateBtnFunc: (state, action) => {
+            state.announceCreateModal = true;
+        },
+
+        getProductListFilterFunc: (state, action) => {
+            state.productListFilter=action.payload
+        },
+        getCategoryListFunc: (state, action) => {
+            state.categoryList=action.payload
+        },
+        getGameCategoryFilterListFunc: (state, action) => {
+            state.gameCategoryFilterList=action.payload
+        },
+        getProductsFilterFunc: (state, action) => {
+            state.filterProducts=action.payload
+        },
     }
 });
 
@@ -65,5 +103,15 @@ export const {
     getMyFavoriesFunc,
     setRefreshed,
     isLoading,
-    stopLoading
+    stopLoading,
+    getShopListFunc,
+    getAuctionListFunc,
+    getAuctionElFunc,
+    getNewsListFunc,
+    getNewsElFunc,
+    announceCreateBtnFunc,
+    getCategoryListFunc,
+    getProductListFilterFunc,
+    getGameCategoryFilterListFunc,
+    getProductsFilterFunc
 } = MainSlice.actions;

@@ -17,8 +17,19 @@ import FooterThirdContainer from '../components/FooterThirdContainer'
 import FooterEndContainer from '../components/FooterEndContainer'
 import HeaderLiveSupportContainer from '../components/HeaderLiveSupportContainer'
 import MainThirdContainer from '../components/MainThirdContainer'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+
+  const navigate=useNavigate()
+
+  const allNews=()=>{
+    navigate("/news")
+  }
+
+  const allAuctions=()=>{
+    navigate("/auctions")
+  }
   return (
     <div>
       <header>
@@ -47,12 +58,12 @@ const Home = () => {
         <section className='container'>
           <h2 className="section_header">Açık Artırma</h2>
           <AuctionSectionContainer />
-          <button className='view_all'>Tüm Açık Artırmalar</button>
+          <button onClick={allAuctions} className='view_all'>Tüm Açık Artırmalar</button>
         </section>
         <section className='container'>
           <h2 className="section_header">Haberler</h2>
           <NewsSectionContainer />
-          <button className='view_all'>Tüm Haberler</button>
+          <button onClick={allNews} className='view_all'>Tüm Haberler</button>
         </section>
 
         {/* <section className='container'>

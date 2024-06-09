@@ -1,102 +1,44 @@
-import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import MainSecondCard from './MainSecondCard'
-import MainSecondCardImg from "../images/prime-ultra-vip-pubg-mobil-random-hesap-medium.webp"
-import { useDispatch, useSelector } from 'react-redux'
-import { getHighlightProducts, getProducts } from '../actions/MainAction'
-
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import MainSecondCard from './MainSecondCard';
+import { useDispatch, useSelector } from 'react-redux';
+import { getHighlightProducts } from '../actions/MainAction';
 
 const MainSecondContainer = () => {
-    let arr = [
-        {
-            id: 1,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP1",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 2,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP2",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 3,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP3",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 4,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP4",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 5,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP5",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 6,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP6",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 7,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP7",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        },
-        {
-            id: 8,
-            name: "PRİME ULTRA VİP PUBG MOBİL RANDOM HESAP8",
-            price: 169.90,
-            store: "UcuzStore1",
-            announcement: "Vitirin İlanı",
-            img: MainSecondCardImg
-        }
-    ]
+ 
 
-    const dispatch=useDispatch()
-    const {highlightProducts}=useSelector(state=>state.Data)
+    const dispatch = useDispatch();
+    const { highlightProducts } = useSelector(state => state.Data);
 
-    console.log(highlightProducts);
+    useEffect(() => {
+        dispatch(getHighlightProducts());
+    }, [dispatch]);
 
-    useEffect(()=>{
-        dispatch(getHighlightProducts())
-    },[dispatch])
+    // URL formatlama funksiyası
+    const formatUrl = (title, id) => {
+        const formattedTitle = title
+            .replace(/\//g, '-')        // / işarəsini əvəz edir
+            .replace(/\?/g, '')         // ? işarəsini çıxarır
+            .trim()                     // Başda və sondakı boşluqları çıxarır
+            .replace(/\s+/g, '')        // Aradakı boşluqları çıxarır
+            .toLowerCase();             // Kiçik hərflərə çevirir
+
+        return `/${formattedTitle}/${id}`;
+    };
+
     return (
         <div className='main_second_container container'>
             {
                 highlightProducts?.map((data, i) => {
                     return (
-                        <Link to={`/${data.title}/${data.id}`}>
-                            <MainSecondCard key={i} data={data}/>
+                        <Link key={i} to={formatUrl(data.title, data.id)}>
+                            <MainSecondCard data={data} />
                         </Link>
                     )
                 })
             }
-
-
         </div>
-    )
+    );
 }
 
-export default MainSecondContainer
+export default MainSecondContainer;

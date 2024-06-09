@@ -5,13 +5,13 @@ import { IoIosChatbubbles } from "react-icons/io";
 
 
 
-const AllShopsCard = () => {
+const AllShopsCard = ({data}) => {
     return (
         <div className='all_shops_card'>
             <div className="all_shops_card_header">
-                <img src={Img} alt="" />
+                <img src={data?.cover} alt="" />
                 <div className="all_shops_card_header_content">
-                    <p>UnrankedShop</p>
+                    <p>{data?.name}</p>
                     <span>2 saat önce aktifti.</span>
                 </div>
             </div>
@@ -25,7 +25,7 @@ const AllShopsCard = () => {
                     <span>AKTİF İLAN</span>
                 </div>
                 <div>
-                    <p>2451</p>
+                    <p>{data?.followers}</p>
                     <span>TAKİPÇİ</span>
                 </div>
             </div>

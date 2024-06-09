@@ -13,6 +13,10 @@ import Shops from './pages/Shops';
 import AllShops from './pages/AllShops';
 import Favories from './pages/Favories';
 import LoaderContainer from './components/LoaderContainer';
+import DetailAuction from './pages/DetailAuction';
+import DetailNews from './pages/DetailNews';
+import News from './pages/News';
+import Auctions from './pages/Auctions';
 
 const App = () => {
   const { loginRegisterModal, loader } = useSelector(state => state.Data);
@@ -29,6 +33,10 @@ const App = () => {
         <Route path='/my-favories' element={<Favories otherPageBanner={otherPageBanner} />} />
         <Route path='/shops' element={<Shops otherPageBanner={otherPageBanner} />} />
         <Route path='/all-shops' element={<AllShops otherPageBanner={otherPageBanner} />} />
+        <Route path='/:auctionName/:product-id/:id' element={<DetailAuction otherPageBanner={otherPageBanner} />} />
+        <Route path='/:newsName/detail/:id' element={<DetailNews otherPageBanner={otherPageBanner} />} />
+        <Route path='/news' element={<News otherPageBanner={otherPageBanner} />} />
+        <Route path='/auctions' element={<Auctions otherPageBanner={otherPageBanner} />} />
       </Routes>
 
       {loginRegisterModal && <Login />}
